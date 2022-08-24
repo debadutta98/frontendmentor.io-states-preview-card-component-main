@@ -78,7 +78,7 @@ body {
   height: auto;
   max-width: 50%;
   background: hsl(277deg, 64%, 61%);
-  filter: opacity(0.5);
+  mix-blend-mode: multiply;
 }
 @media screen and (max-width: 939px) {
   .flexbox {

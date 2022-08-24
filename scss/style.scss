@@ -68,7 +68,8 @@ body {
             height: auto;
             max-width: 50%;
             background: $textColorAccent;
-            filter: opacity(0.5);
+            // filter: opacity(0.3);
+            mix-blend-mode: multiply;
         }
     @media screen and (max-width: 939px) {
         flex-direction: column-reverse;
